@@ -4,7 +4,13 @@ This repository contains code for sentiment analysis using Natural Language Proc
 
 #### Database
 
-The sentiment analysis model is trained on a labeled dataset containing text samples along with their corresponding sentiment labels. The dataset is preprocessed and tokenized to convert the text into numerical representations suitable for input to the model.
+The sentiment analysis model is trained on a labeled dataset containing text samples along with their corresponding sentiment labels. The dataset is preprocessed and tokenized to convert the text into numerical representations suitable for input to the model. 
+
+The data we were used still has two main dimensions: tweets and labels. The tweets represent pure text collected from Twitter about ChatGPT, covering various topics and opinions shared by users. The labels associated with each tweet indicate the sentiment that the authors want to transmit in their messages, such as positive, negative, neutral.
+
+To access and explore the dataset, please follow this link: [ChatGPT-Tweets](https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis). 
+Please, Download and copie the dataset to databse dir.
+
 
 #### Model Architecture
 
